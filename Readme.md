@@ -1,17 +1,17 @@
-#Teacher Assistant
+#Teacher Assistant#
 This project aims to address meaning events in Turkish education by employing the Socratic teaching style. It is designed to function as an interactive teaching assistant that engages students effectively. The project includes tools for uploading and storing a series of PDF documents in a database.
 
-##Install Required Libraries:
+##Install Required Libraries##
 
 pip install -r requirements.txt
 
-##Set Environment Variables:
+##Set Environment Variables##
 
 Create a .env file and define the necessary environment variables:
 
 OPENAI_API_KEY= 'your_openai_api_key'
 
-##Implementation Details
+##Implementation Details##
 The project consists of the following key components:
 
 PDF Document Loader: Utilizes the langchain library to load and process PDF documents from a specified directory.
@@ -20,7 +20,7 @@ Database Integration: Employs chromadb to create a persistent collection for sto
 OpenAI API Integration: Interacts with the OpenAI API to provide a Socratic teaching experience, asking questions and facilitating discussions based on the meaning events in the Turkish language.
 
 
-##Possible Improvements
+##Possible Improvements##
 While the current implementation provides a solid foundation, there are several potential improvements to consider:
 
 Enhanced Error Handling: Implement more robust error handling throughout the document loading and database storage processes to handle potential issues gracefully.
