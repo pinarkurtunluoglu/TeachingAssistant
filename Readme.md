@@ -11,6 +11,10 @@ Create a .env file and define the necessary environment variables:
 
 OPENAI_API_KEY= 'your_openai_api_key'
 
+## For Starting
+
+Write 'python main.py' to the terminal.
+
 ## Implementation Details
 The project consists of the following key components:
 
