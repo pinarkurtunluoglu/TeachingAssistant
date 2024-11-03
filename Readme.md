@@ -1,4 +1,4 @@
-# Teacher Assistant
+# Teaching Assistant
 This project aims to address meaning events in Turkish education by employing the Socratic teaching style. It is designed to function as an interactive teaching assistant that engages students effectively. The project includes tools for uploading and storing a series of PDF documents in a database.
 
 ## Install Required Libraries
